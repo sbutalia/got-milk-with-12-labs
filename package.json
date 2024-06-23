@@ -1,0 +1,33 @@
+{
+  "name": "got-milk-12-labs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "handlebars": "^4.7.8",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^7.0.3",
+    "@fastify/view": "^9.1.0",
+    "ascii-art": "^2.8.5",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5",
+    "twelvelabs-js": "^0.1.23",
+    "@fastify/basic-auth": "^5.1.1",
+    "lowdb": "^7.0.1",
+    "mixpanel": "^0.18.0"
+  },
+  "engines": {
+     "node": "16.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node"
+  ]
+}

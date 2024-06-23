@@ -1,0 +1,32 @@
+{
+    "newItems": [],
+    "processed": [
+        {
+            "subName": "Simran2",
+            "subEmail": "sim2@2.com",
+            "ytUrl": "https://www.youtube.com/watch?v=8PG5vAY5lX8",
+            "rec12Id": "66746ad21ae729d1b851186f",
+            "timestamp": 1718905554998,
+            "state": "PROCESSED",
+            "twVideoId": "66746adfd22b3a3c97bf2d48",
+            "thumb": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/66746adfd22b3a3c97bf2d48/15.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240621%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240621T143750Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=da8e3f7a48aa461d8563cf9b5ab47f5fc04c1a3d5db10b824d5de68af2c926f0",
+            "twVideoMetadata": {
+                "filename": "Sprite | Obey Your Thirst - Nah :30",
+                "duration": 30,
+                "width": 640,
+                "height": 360
+            },
+            "results": "",
+            "judgeResults": "Upon reviewing the video in question, it becomes apparent that the content does not align with the objectives of the 'Got Milk?' campaign. The video features a commercial for Sprite soda, focusing on a female celebrity who enjoys the beverage in various settings, such as a locker room, a studio, and during a photoshoot. Throughout the video, the celebrity is seen actively choosing Sprite over other implied options, accompanied by dialogues that emphasize personal choice and defiance of expectations, culminating in the slogan \"Obey your thirst. Sprite.\"\n\nGiven the criteria for evaluation:\n\n1. **Relevance to promoting milk:** The video is centered around Sprite soda, showcasing it as the beverage of choice without any mention or visual of milk. Thus, its relevance to promoting milk is nonexistent. **Score: 1/10.**\n\n2. **Visuals of people drinking milk:** There are no visuals of anyone drinking milk or even milk presence in the video. All focus is on the celebrity drinking Sprite. **Score: 0/10.**\n\n3. **Clear messaging about milk's benefits:** The video does not provide any messaging about milk or its benefits, as it is a commercial for a soda brand. **Score: 0/10.**\n\n4. **Creativity in promoting milk:** While the video demonstrates creativity in its approach to advertising Sprite, leveraging celebrity influence and a narrative of personal choice, it fails to employ any creativity towards promoting milk. The creativity observed is entirely directed at enhancing the appeal of a different product. **Score: 2/10.**\n\nGiven these observations, the overall score for the video, in the context of the 'Got Milk?' campaign's objectives, would be **3/10**. This score reflects the video's lack of alignment with the campaign's goals, absence of milk-related visuals or messages, and its focus on promoting an entirely unrelated product.",
+            "judgeScore": {
+                "relevance": 9,
+                "visuals": 8,
+                "messaging": 7,
+                "creativity": 8,
+                "impact": 7,
+                "overall": 7
+            },
+            "judgeResultsHTML": "<h5 class=\"card-title\">Evaluation Summary</h5><p>Based on a thorough analysis of the video, it becomes evident that the content is not aligned with the objectives of the 'Got Milk?' campaign. The video primarily showcases a commercial for Sprite soda, featuring a female celebrity engaging with the product in various settings, such as a locker room, a studio, and during a photoshoot. The dialogue and visuals focus on the refreshing nature of Sprite, with repeated emphasis on \"obeying your thirst\" and enjoying the soda, rather than promoting any aspect related to milk.</p><p>1. Relevance to promoting milk: The video's relevance to the 'Got Milk?' campaign is minimal, as it does not feature milk or discuss its benefits. Instead, it highlights a different beverage, which makes it largely irrelevant to the campaign's goals.</p><p>2. Visuals of people drinking milk: There are no visuals of people drinking milk throughout the video. The focus remains exclusively on the consumption of Sprite, leaving no room for the promotion or visual representation of milk.</p><p>3. Clear messaging about milk's benefits: The video lacks any messaging related to the benefits of milk. The narrative and dialogue are centered around Sprite, without any mention of milk, its nutritional value, or reasons for consumption.</p><p>4. Creativity in promoting milk: While the video demonstrates creativity in its approach to advertising Sprite, featuring engaging scenarios and a well-known celebrity, it does not utilize this creativity to promote milk. The creative elements are employed to enhance the appeal of a different product entirely.</p><p>Given these observations, the overall score for the video, in the context of the 'Got Milk?' campaign, would be 3 out of 10. This score reflects the video's failure to align with the campaign's objectives, lack of relevant visuals, and absence of messaging about milk's benefits, despite demonstrating some level of creativity in its execution.</p>"
+        }
+    ]
+}

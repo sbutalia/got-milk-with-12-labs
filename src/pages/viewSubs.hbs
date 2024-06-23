@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style/pacmanLoader.css">
+    <link rel="stylesheet" href="style/custom.css">
+    <link rel="stylesheet" href="style/theme.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    
+    <title>Got Milk? View Submissions</title>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-12">
+              <div class="title-container text-center mt-4 mb-4">
+                <h1>Got Milk? View Submissions</h1>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+             <div class="col-md-12">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="card-title mb-0">#GotMilk Campaign Submissions</h5>
+                                         
+                    </div>  
+                    
+                    <div class="card-body">
+                          <div class="mb-3">
+                              <div id="respBox">
+                                
+                              </div>
+                          </div>
+              
+                          <div class="mb-3">
+                            <div id="hlsPlayer">
+                              <video id="videoElem" controls></video>
+                            </div>
+                          </div>
+                      
+                         <div class="mb-3">
+                              <div id="judgeResponse">
+                                
+                              </div>
+                          </div>
+                      
+                          <h4>Evaluated</h4>
+                          <div id="processedVideoCardsContainer" class="row"></div>      
+                          <h4 class="mt-5">New Submissions</h4>
+                        <div id="newVideoCardsContainer" class="row"></div>      
+                    </div>
+                  </div>         
+            </div>
+          </div>
+
+
+          <div class="footer mt-5 mb-4">
+            <h6 class="text-center"></h6>
+          </div>
+
+
+      </div> <!--e container-fluid -  main-->    
+
+        <!-- Bootstrap Modal for Alerts -->
+        <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="alertModalLabel">Doh!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" id="alertModalBody">
+                Please select a video.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="particles"></div>
+
+        <div id="loader-wrapper">
+          <div id="loader" class="loader">
+            <div class="pacman"></div>
+            <div class="stomach"></div>
+            <ul class="dots">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div id="loader-time"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        
+        <script src="/js/viewSubs/app.js" type="module"></script>
+        
+        <script>
+          // Inline script box if needed
+        </script>
+
+    </div>
+  </body>
+</html>

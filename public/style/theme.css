@@ -1,0 +1,39 @@
+:root {
+  
+  --navy: #184076; /* Navy blue */
+    --red: #c4203b; /* Bright red */
+    --gray: #eeeeee; /* Light gray */
+    --lightest-gray: #f5f5f5;
+    --dark-gray: #444a51; /* Dark gray for text and other elements */
+    --white: #ffffff; /* White */
+  --bs-nav-pills-link-active-bg: var(--navy); /* Set active nav pill background color to navy */
+}
+
+body {
+    background-color: var(--gray); /* Light gray background */
+    color: var(--dark-gray); /* Dark gray text for better readability */
+    font-family: Arial, sans-serif; /* Modern, clean font */
+}
+
+.btn-nfl-red {
+    background-color: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+}
+
+.btn-nfl-red:hover {
+    background-color: darken(var(--red), 10%);
+    border-color: darken(var(--red), 10%);
+}
+
+.btn-nfl-navy {
+    background-color: var(--navy);
+    border-color: var(--navy);
+    color: var(--white);
+}
+
+.btn-nfl-navy:hover {
+    background-color: #456994;
+    border-color: #456994;
+ color: var(--white);
+}

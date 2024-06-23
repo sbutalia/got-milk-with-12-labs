@@ -1,0 +1,34 @@
+@getTaskStatus-resp: Task {
+  _resource: <ref *1> Task {
+    baseUrl: 'https://api.twelvelabs.io/v1.2/',
+    apiKey: 'tlk_0N0HJSH3CWCG0G2X5GKBC1VZCBBH',
+    _client: TwelveLabs {
+      baseUrl: 'https://api.twelvelabs.io/v1.2/',
+      apiKey: 'tlk_0N0HJSH3CWCG0G2X5GKBC1VZCBBH',
+      engine: [Engine],
+      index: [Index],
+      task: [Circular *1],
+      search: [Search],
+      generate: [Generate]
+    },
+    _get: [AsyncFunction: _get],
+    _post: [AsyncFunction: _post],
+    _patch: [AsyncFunction: _patch],
+    _put: [AsyncFunction: _put],
+    _delete: [AsyncFunction: _delete]
+  },
+  id: '66746ad21ae729d1b851186f',
+  indexId: '666afeda910befead385dd3c',
+  videoId: '66746adfd22b3a3c97bf2d48',
+  estimatedTime: '2024-06-20T17:48:51.567Z',
+  status: 'ready',
+  metadata: {
+    filename: 'Sprite | Obey Your Thirst - Nah :30',
+    duration: 30,
+    width: 640,
+    height: 360
+  },
+  process: undefined,
+  createdAt: '2024-06-20T17:45:54.888Z',
+  updatedAt: '2024-06-20T17:49:51.029Z'
+}
